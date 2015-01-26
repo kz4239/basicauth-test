@@ -8,6 +8,7 @@ public class TopBean {
 
 	public TopBean() {
 		super();
+		System.out.println("abc");
 		name = "saiki";
 	}
 
@@ -20,7 +21,8 @@ public class TopBean {
 	}
 
 
-	public void exec() {
+	public String exec() {
 		System.out.println("exec called");
+		return "abc";
 	}
 }
